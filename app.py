@@ -3,6 +3,8 @@ Streamlit Application for RRG Chart Visualization
 Visualizes Relative Rotation Graphs for different sectors on daily and weekly basis
 Redesigned UI with three-pane layout: Left (Settings), Middle (Chart), Right (Selection)
 """
+import utils.transport
+import utils.session
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go

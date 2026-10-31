@@ -28,7 +28,6 @@ placetrade/
 
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -46,7 +45,7 @@ config.json
 credentials.json
 *.key
 *.pem
-.env
-.env.local
 .env.*.local
 
+config.bat
+node_modules
